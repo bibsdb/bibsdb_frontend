@@ -1,0 +1,16 @@
+name = Bibsdb Frontend
+core = 7.x
+package = Bibsdb
+dependencies[] = ding_frontend
+features[features_api][] = api:2
+features[features_override_items][] = menu_custom.menu-footer-menu-1
+features[features_override_items][] = menu_custom.menu-footer-menu-2
+features[features_override_items][] = menu_custom.menu-footer-menu-3
+features[features_override_items][] = menu_custom.menu-footer-menu-4
+features[features_override_items][] = views_view.ding_node_search
+features[features_overrides][] = menu_custom.menu-footer-menu-1.title
+features[features_overrides][] = menu_custom.menu-footer-menu-2.title
+features[features_overrides][] = menu_custom.menu-footer-menu-3.title
+features[features_overrides][] = menu_custom.menu-footer-menu-4.title
+features[features_overrides][] = views_view.ding_node_search.display|default|display_options|filters|type|value|read_circuit_set
+project path = sites/default/modules

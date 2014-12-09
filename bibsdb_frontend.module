@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Bibsdb Frontend feature.
+ */
+
+include_once 'bibsdb_frontend.features.inc';
